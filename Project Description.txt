@@ -1,0 +1,25 @@
+﻿A Study of Sleep Disorder and Quality Diagnosis
+Skye Jung, Grace Zhang, Rose E.M.
+
+
+Motivation: 
+Predicting sleep disorder diagnoses is essential because timely identification can lead to early intervention, reducing the risk of associated chronic conditions and improving overall health and productivity. With the prevalence of sleep disturbances among students and working professionals—often due to stress and other factors—reliable prediction models can play a crucial role. They can alert individuals to potential disorders before serious consequences develop, fostering better sleep habits and ultimately enhancing the quality of life in our increasingly connected and demanding world.
+
+
+Goals: 
+Our goals for this project are to:
+1. Describe the uncertainty in a sleep disorder diagnosis given lifestyle and sleep quality measurements
+2. Evaluate the posterior probability distributions of the regression parameters for the predictor variables from above (lifestyle/sleep predictors)
+3. Evaluate the model predictions and the uncertainties in these predictions.
+
+
+Data: 
+The data is from Kaggle and consists of 12 predictor variables 
+(https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
+
+
+Approach: 
+We propose to use Bayesian logistic regression with No-U-Turn Sampler and will investigate:
+1. A main effects model
+2. A simpler model
+3. A Bayesian model averaging approach
