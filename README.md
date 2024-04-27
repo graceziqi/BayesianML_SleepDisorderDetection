@@ -1,4 +1,4 @@
-# Bayesian-ML---Sleep-Health
+# Sleep Disorder Detection with Bayesian Machine Learning
 ### With `Bayes_SleepDisorder.ipynb` and `sleep.csv` dataset, the file can be run in .jupyter notebooks or Google Colab. The goals for this project are focusing on:
 
 ### 1. Describe the uncertainty in a sleep disorder diagnosis given lifestyle and sleep quality measurements
